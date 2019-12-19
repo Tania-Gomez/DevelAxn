@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: #666666;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #3366cc;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #3366cc;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3366cc;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #666666;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+.jumbotron {
+  background-image: url("../img/foto-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5rem;
+  height: 600px;
+}
+
+.slogan {
+  color: #666666;
+  width: 75%;
+}
+
+@media (max-width: 576px) {
+  .header__logo {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .slogan {
+    margin-top: 2rem;
+  }
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #3366cc;
+  border: 2px solid #3366cc;
+}
+
+.btn-primary:hover {
+  color: #3366cc;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #3366cc;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #3366cc;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #3366cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-outline-primary {
+  color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #3366cc;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.sectionInfo {
+  background-color: #2952a3;
+}
+
+.sectionProgramas {
+  background-color: #f6f6f6;
+}
+
+/*# sourceMappingURL=main.css.map */
