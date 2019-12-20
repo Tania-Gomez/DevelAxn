@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap");
 ::placeholder {
   color: #666666;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 * {
@@ -42,7 +42,7 @@ h4 {
 h5 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: #666666;
 }
 
@@ -64,12 +64,12 @@ p {
 
 .slogan {
   color: #666666;
-  width: 75%;
+  width: 70%;
 }
 
 @media (max-width: 576px) {
   .header__logo {
-    width: 80%;
+    width: 74%;
   }
 
   h1 {
@@ -87,7 +87,7 @@ p {
 
 @media (max-width: 576px) {
   ul {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1.6;
   }
 }
@@ -156,8 +156,12 @@ p {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-.sectionInfo {
+.top-info {
   background-color: #2952a3;
+}
+
+.navbar {
+  margin-top: 2rem;
 }
 
 .contact {
