@@ -9,20 +9,20 @@
   height: 600px;
 }
 
-.slogan {
+.SectionHeader__slogan {
   color: $dark-gray;
   width: 70%;
 }
 
 @media (max-width: 576px) {
-  .header__logo {
+  .SectionHeader__logo {
     width: 74%;
    }
   h1 {
     font-size: $large;
     line-height: 1.6;
   }
-  .slogan {
+  .SectionHeader__slogan {
     margin-top: 2rem;
   }
 }

@@ -17,10 +17,10 @@
 
   <body>
     <!-- Esta es barrita superior con info -->
-    <section class="top-info text-white fixed-top">
+    <section class="SectionTop text-white fixed-top">
       <!-- icono envelope -->
-      <div class="container d-flex flex-row bd-highlight mb-3">
-        <div class="p-1 bd-highlight"><svg version="1.1" id="icon-envelope-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 20.4 16" style="enable-background:new 0 0 20.4 16;" xml:space="preserve" width="1rem" height="1rem">
+      <div class="SectionTop__container container d-flex flex-row bd-highlight mb-3">
+        <div class="SectionTop__socialicon p-1 bd-highlight"><svg version="1.1" id="icon-envelope-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 20.4 16" style="enable-background:new 0 0 20.4 16;" xml:space="preserve" width="1rem" height="1rem">
         <style type="text/css">
         	.envelope{fill:#FFFFFF;}
         </style>
@@ -39,12 +39,12 @@
         </g>
         </svg></div>
         <!-- email -->
-        <div class="p-1 bd-highlight">
-          <a class="text-white" href="mailto:contacto@develaccion.com">contacto@develaccion.com</a>
+        <div class="SectionTop__container p-1 bd-highlight">
+          <a class="SectionTop__email text-white" href="mailto:contacto@develaccion.com">contacto@develaccion.com</a>
         </div>
 
         <!-- icono whatsapp -->
-        <div class="p-1 ml-3 bd-highlight d-none d-sm-block">
+        <div class="SectionTop__socialicon p-1 ml-3 bd-highlight d-none d-sm-block">
             <a href="https://api.whatsapp.com/send?phone=56968447328"><svg version="1.1" id="icon-whatsapp-xs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve" width="1rem" height="1rem">
             <style type="text/css">
               .whatsapp-shape{fill:#FFFFFF;}
@@ -61,7 +61,7 @@
             </svg></a>
         </div>
         <!-- icono facebook -->
-        <div class="p-1 bd-highlight d-none d-sm-block">
+        <div class="SectionTop__socialicon p-1 bd-highlight d-none d-sm-block">
             <a href="https://www.facebook.com/develAccion/"><svg version="1.1" id="icon-facebook-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 96.1 96.1" style="enable-background:new 0 0 96.1 96.1;" xml:space="preserve" width="1rem" height="1rem" class="ml-2">
             <style type="text/css">
               .facebook-shape{fill:#FFFFFF;}
@@ -74,7 +74,7 @@
             </svg></a>
         </div>
         <!-- icono youtube -->
-        <div class="p-1 bd-highlight d-none d-sm-block">
+        <div class="SectionTop__socialicon p-1 bd-highlight d-none d-sm-block">
             <a href="https://www.youtube.com/channel/UCSEEKiRiU8hij9ErKugWzLg">                <svg version="1.1" id="icon-youtube-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="1rem" height="1rem" class="ml-2">
             <style type="text/css">
               .youtube-shape{fill:#FFFFFF;}
@@ -88,7 +88,7 @@
             </svg></a>
         </div>
         <!-- icono linkedin -->
-        <div class="p-1 bd-highlight d-none d-sm-block">
+        <div class="SectionTop__socialicon p-1 bd-highlight d-none d-sm-block">
             <a href="https://www.linkedin.com/company/develaccion/"><svg version="1.1" id="icon-linkedin-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve" width="1rem" height="1rem" class="ml-3">
             <style type="text/css">
               .linkedin-shape{fill:#FFFFFF;}
@@ -105,7 +105,7 @@
             </svg></a>
         </div>
         <!-- icono instagram   -->
-        <div class="p-1 bd-highlight d-none d-sm-block">
+        <div class="SectionTop__socialicon p-1 bd-highlight d-none d-sm-block">
             <a href="https://www.instagram.com/develaccion/"><svg version="1.1" id="icon-instagram-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 169.1 169.1" style="enable-background:new 0 0 169.1 169.1;" xml:space="preserve" width="1rem" height="1rem" class="ml-3">
             <style type="text/css">
               .instagram-shape{fill:#FFFFFF;}
@@ -126,13 +126,13 @@
 
     <!-- Este es el Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" class="img-responsive" alt="Logo DevelAxn"></a>
+      <div class="navbar__container container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.jpg" class="navbar__logo img-responsive" alt="Logo DevelAxn"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar__list navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">DevelAxn</a>
             </li>
@@ -157,44 +157,43 @@
     </nav>
 
     <!-- Inicio Hero-->
-    <header>
+    <header class="SectionHeader">
       <div class="jumbotron jumbotron-fluid position-relative">
         <div class="container">
           <div class="row">
-            <img class="header__logo m-5" src="assets/img/Logo-temp-nombre-slogan.png" alt="Logo DevelAxn">
-            <h1 class="slogan m-5">Reunimos ingeniería, coaching y técnicas terapéuticas en Programas de Transformación y Adaptación, con foco en Resultados y RSE</h1>
-            <h3><a class="btn btn-primary m-5" href="#" role="button">QUIERO SABER MÁS</a></h3>
+            <img class="SectionHeader__logo m-5" src="assets/img/Logo-temp-nombre-slogan.png" alt="Logo DevelAxn">
+            <h1 class="SectionHeader__slogan m-5">Reunimos ingeniería, coaching y técnicas terapéuticas en Programas de Transformación y Adaptación, con foco en Resultados y RSE</h1>
+            <h3><a class="SectionHeader__btn btn btn-primary m-5" href="#" role="button">QUIERO SABER MÁS</a></h3>
           </div>
         </div>
       </div>
-
     </header>
 
     <main>
-      <!-- Seccion Vision en Accion -->
-      <section>
-        <div class="container mb-3">
-          <h2 class="text-center my-5">Visión en Acción</h2>
+      <!-- Seccion AboutUs -->
+      <section class="SectionAboutUs">
+        <div class="SectionAboutUs__container container mb-3">
+          <h2 class="SectionAboutUs__title-xxxl text-center my-5">Visión en Acción</h2>
 
           <div class="row">
 
-            <div class="col-md-4">
-              <img class="w-100 h-auto m-2" src="assets/img/paola-meli.jpg" alt="Paola Meli fundadora de DevelAxn">
+            <div class="SectionAboutUs__container-img col-md-4">
+              <img class="SectionAboutUs__img w-100 h-auto m-2 fade-in-top" src="assets/img/paola-meli.jpg" alt="Paola Meli fundadora de DevelAxn">
             </div>
 
-            <div class="col-md-8">
+            <div class="SectionAboutUs__paragraph col-md-8">
               <p>Soy Paola Meli Muñoz, <span style="font-size:20px; color:#3366cc">fundadora</span> de DevelAxn. Ingeniera Civil Industrial UC, coach sistémica, consteladora empresarial y terapeuta, con más de 20 años de experiencia.</p>
               <p>Nos dedicamos a realizar Programas de Transformación y Adaptación al mundo cada vez más cambiante al que nos enfrentamos hoy, con <span style="font-size:20px; color:#3366cc">foco</span> en Resultados y en RSE.</p>
               <p>Cada programa se desarrolla y trabaja con <span style="font-size:20px; color:#3366cc">equipos</span> especializados, consultores asociados. Nos vincula un propósito y un sentir común: queremos ser promotores de la transformación social, grupal e individual a nivel mundial para co-construir una sociedad de personas reconocidas, incluidas y valoradas.</p>
 
-              <h3 class="mt-2">RSE</h3>
+              <h3 class="SectionAboutUs__title-xl mt-2">RSE</h3>
               <p>Compromiso: el 100% de nuestras utilidades se usarán para entregar estos programas a sectores vulnerables, emprendedores conscientes sin capital económico y organizaciones sociales.</p>
             </div>
 
           </div>
 
-          <div class="cta">
-            <h3 class="text-center m-5 py-3">Si quieres saber qué podemos hacer por ti <a href="#" class="btn btn-primary ml-2">CONTÁCTANOS</a></h3>
+          <div class="SectionAboutUs__cta">
+            <h3 class="SectionAboutUs__text text-center m-5 py-3">Si quieres saber qué podemos hacer por ti <a href="#" class="SectionAboutUs__btn btn btn-primary ml-2">CONTÁCTANOS</a></h3>
           </div>
 
         </div>
@@ -202,45 +201,45 @@
 
       <!-- Seccion Programas-->
       <section class="sectionProgramas py-3">
-        <div class="container">
-          <h2 class="text-center my-5">Programas</h2>
+        <div class="sectionProgramas__container container">
+          <h2 class="sectionProgramas__title-xxxl text-center my-5">Programas</h2>
 
           <div class="row row-cols-1 row-cols-md-2">
 
-            <div class="col mb-4">
-              <div class="card">
-                <img src="assets/img/program-transformacion-organizacional.jpg" class="card-img-top" alt="Transformación Organizacional">
-                <div class="card-body">
-                  <h4>Transformación Organizacional</h4>
-                  <p class="card-text">Equipos vinculados y comprometidos con el resultado grupal.Líderes colaborativos. Cargos, Funciones, Tareas, interconectadas que potencian el sistema.</p>
+            <div class="sectionProgramas__card-deck col mb-4">
+              <div class="sectionProgramas__card card">
+                <img src="assets/img/program-transformacion-organizacional.jpg" class="sectionProgramas__img card-img-top" alt="Transformación Organizacional">
+                <div class="sectionProgramas__content card-body">
+                  <h4 class="sectionProgramas__title-l">Transformación Organizacional</h4>
+                  <p class="sectionProgramas__paragraph card-text">Equipos vinculados y comprometidos con el resultado grupal.Líderes colaborativos. Cargos, Funciones, Tareas, interconectadas que potencian el sistema.</p>
                     <div class="d-flex flex-row-reverse">
-                      <a class="btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+                      <a class="sectionProgramas__btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
                     </div>
                 </div>
               </div>
             </div>
 
-            <div class="col mb-4">
-              <div class="card">
-                <img src="assets/img/program-camino-guerrero.jpg" class="card-img-top" alt="Emprender, el camino del(a) Guerrer@">
-                <div class="card-body">
-                  <h4>Emprender, el camino del(a) Guerrer@</h4>
-                  <p class="card-text">Accionar ideas, sueños, proyectos o propósitos. Desarrollo de Negocios. Planificación en ambientes inestables. Superar barreras y limitaciones.</p>
+            <div class="sectionProgramas__card-deck col mb-4">
+              <div class="sectionProgramas__card card">
+                <img src="assets/img/program-camino-guerrero.jpg" class="sectionProgramas__img card-img-top" alt="Emprender, el camino del(a) Guerrer@">
+                <div class="sectionProgramas__content card-body">
+                  <h4 class="sectionProgramas__title-l">Emprender, el camino del(a) Guerrer@</h4>
+                  <p class="sectionProgramas__paragraph card-text">Accionar ideas, sueños, proyectos o propósitos. Desarrollo de Negocios. Planificación en ambientes inestables. Superar barreras y limitaciones.</p>
                   <div class="d-flex flex-row-reverse">
-                    <a class="btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+                    <a class="sectionProgramas__btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col mb-4">
-              <div class="card">
-                <img src="assets/img/program-desarrollo-org-sistemico.jpg" class="card-img-top" alt="Desarrollo Organizacional Sistémico">
-                <div class="card-body">
-                  <h4>Desarrollo Organizacional Sistémico</h4>
-                  <p class="card-text">Organización unida por Inspiración conjunta. Aumenta Bienestar individual y grupal. Vinculación y Pertenencia como llaves del compromiso.</p>
+            <div class="sectionProgramas__card-deck col mb-4">
+              <div class="sectionProgramas__card card">
+                <img src="assets/img/program-desarrollo-org-sistemico.jpg" class="sectionProgramas__img card-img-top" alt="Desarrollo Organizacional Sistémico">
+                <div class="sectionProgramas__content card-body">
+                  <h4 class="sectionProgramas__title-l">Desarrollo Organizacional Sistémico</h4>
+                  <p class="sectionProgramas__paragraph card-text">Organización unida por Inspiración conjunta. Aumenta Bienestar individual y grupal. Vinculación y Pertenencia como llaves del compromiso.</p>
                   <div class="d-flex flex-row-reverse">
-                    <a class="btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+                    <a class="sectionProgramas__btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
                   </div>
                 </div>
               </div>
@@ -270,40 +269,39 @@
 
       <!-- sectionCustomers-->
       <section class="sectionCustomers">
-        <div class="container">
-          <h2 class="my-5 text-center">Lo que dicen nuestros clientes</h2>
+        <div class="sectionCustomers__container container">
+          <h2 class="sectionCustomers__title-xxxl my-5 text-center">Lo que dicen nuestros clientes</h2>
           <div class="row">
 
             <!-- customer 1 -->
             <div class="col-sm p-3">
-              <img class="w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-caterina-verdi.png" alt="Cliente DevelAxn">
-              <h3 class="text-secondary">Caterina Verdi</h3>
-              <h5>Publicista, Empresaria|Grupo Sigma</h5>
-              <p class="font-italic pt-3">“Por mi experiencia anterior con metodologías como ésta, sabía que sería potente aplicarlas al funcionamiento de una empresa.”</p>
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-caterina-verdi.png" alt="Cliente DevelAxn">
+              <h3 class="sectionCustomers__title-xl text-secondary">Caterina Verdi</h3>
+              <h5 class="sectionCustomers__title-sm">Publicista, Empresaria|Grupo Sigma</h5>
+              <p class="sectionCustomers__paragraph font-italic pt-3">“Por mi experiencia anterior con metodologías como ésta, sabía que sería potente aplicarlas al funcionamiento de una empresa.”</p>
             </div>
 
             <!-- customer 2 -->
             <div class="col-sm p-3">
-              <img class="w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-german-pizarro.png" alt="Cliente DevelAxn">
-              <h3 class="text-secondary">Germán Pizarro</h3>
-              <h5>Empresario|IHC Consulting</h5>
-              <p class="font-italic pt-3">“Fue un trabajo semanal, muy interesante y enriquecedor en el sentido de ir descubriendo a través de ejercicios prácticos, como algunos componentes de la empresa no estaban realmente alineados.”</p>
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-german-pizarro.png" alt="Cliente DevelAxn">
+              <h3 class="sectionCustomers__title-xl text-secondary">Germán Pizarro</h3>
+              <h5 class="sectionCustomers__title-sm">Empresario|IHC Consulting</h5>
+              <p class="sectionCustomers__paragraph font-italic pt-3">“Fue un trabajo semanal, muy interesante y enriquecedor en el sentido de ir descubriendo a través de ejercicios prácticos, como algunos componentes de la empresa no estaban realmente alineados.”</p>
             </div>
 
             <!-- customer 3 -->
             <div class="col-sm p-3">
-              <img class="w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-alfonso-contreras.png" alt="Cliente DevelAxn">
-              <h3 class="text-secondary">Alfonso Contreras</h3>
-              <h5>Empresario | SmartGoals, NEP</h5>
-              <p class="font-italic pt-3">“Mi expectativa era enfocarme y poner a mi favor aspectos que uno sabe que están ahí, pero que normalmente no están en el radar de las empresas y ni de los empresarios.”</p>
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-alfonso-contreras.png" alt="Cliente DevelAxn">
+              <h3 class="sectionCustomers__title-xl text-secondary">Alfonso Contreras</h3>
+              <h5 class="sectionCustomers__title-sm">Empresario | SmartGoals, NEP</h5>
+              <p class="sectionCustomers__paragraph font-italic pt-3">“Mi expectativa era enfocarme y poner a mi favor aspectos que uno sabe que están ahí, pero que normalmente no están en el radar de las empresas y ni de los empresarios.”</p>
             </div>
 
         </div>
 
         <!-- CTA testimonios -->
-        <div class="cta text-center">
-          <h3 class="m-4 py-2">Conoce más testimonios<a href="#" class="btn btn-primary ml-2">AQUÍ</a></h3>
-          <img class="w-100" src="assets/img/logos-clientes.jpg" alt="Logos clientes">
+        <div class="sectionCustomers__cta text-center">
+          <h3 class="sectionCustomers__text m-4 py-2">Conoce más testimonios<a href="#" class="sectionCustomers__btn btn btn-primary ml-2">AQUÍ</a></h3>
         </div>
       </div>
 
@@ -311,32 +309,32 @@
 
     </main>
 
-    <!-- Sección Contacto -->
-    <section class="contact">
-      <div class="container mb-3">
-        <h2 class="text-left py-5">Contáctanos</h2>
+    <!-- Sección Formulario de Contacto -->
+    <section class="SectionContact">
+      <div class="SectionContact__container container mb-3">
+        <h2 class="SectionContact__title text-left py-5">Contáctanos</h2>
 
         <div class="row">
 
-          <div class="col-md-5 mb-5">
-            <form>
-              <div class="form-group pb-2">
-                <input type="text" class="form-control" id="formGroupInput" placeholder="Nombre">
+          <div class="SectionContact__formContainer col-md-5 mb-5">
+            <form class="SectionContact__form">
+              <div class="SectionContact__form-groupContainer form-group pb-2">
+                <input type="text" class="SectionContact__form-input form-control" id="formGroupInput" placeholder="Nombre">
               </div>
-              <div class="form-group pb-2">
-                <input type="email" class="form-control" id="formGroupEmail" aria-describedby="emailHelp" placeholder="Email">
+              <div class="SectionContact__form-groupContainer form-group pb-2">
+                <input type="email" class="SectionContact__form-input form-control" id="formGroupEmail" aria-describedby="emailHelp" placeholder="Email">
               </div>
-              <div class="form-group">
-                <textarea class="form-control" id="FormGroupTextarea" rows="5" placeholder="Mensaje"></textarea>
+              <div class="SectionContact__form-groupContainer form-group">
+                <textarea class="SectionContact__form-textarea form-control" id="FormGroupTextarea" rows="5" placeholder="Mensaje"></textarea>
               </div>
-              <div class="d-flex flex-row-reverse">
-                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+              <div class="SectionContact__btnContainer d-flex flex-row-reverse">
+                <button type="submit" class="SectionContact__btn btn btn-primary mb-2">Enviar</button>
               </div>
 
-              <div class="rrss-form mt-2">
+              <div class="SectionContact__rrss-iconContainer mt-2">
 
               <!-- icono whatsapp -->
-                <a href="https://api.whatsapp.com/send?phone=56968447328"><svg version="1.1" id="icon-whatsapp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve" width="2rem" height="2rem">
+                <a href="https://api.whatsapp.com/send?phone=56968447328" class="SectionContact__rrss-icon"><svg version="1.1" id="icon-whatsapp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve" width="2rem" height="2rem">
                 <style type="text/css">
                 	.st0{fill:#3366CC;}
                 </style>
@@ -352,7 +350,7 @@
                 </svg></a>
 
               <!-- icono facebook -->
-                <a href="https://www.facebook.com/develAccion/"><svg version="1.1" id="icon-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 96.1 96.1" style="enable-background:new 0 0 96.1 96.1;" xml:space="preserve" width="1.7rem" height="1.7rem" class="ml-3">
+                <a href="https://www.facebook.com/develAccion/" class="SectionContact__rrss-icon"><svg version="1.1" id="icon-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 96.1 96.1" style="enable-background:new 0 0 96.1 96.1;" xml:space="preserve" width="1.7rem" height="1.7rem" class="ml-3">
                 <style type="text/css">
                 	.st0{fill:#3366CC;}
                 </style>
@@ -364,7 +362,7 @@
                 </svg></a>
 
               <!-- icono youtube -->
-                <a href="https://www.youtube.com/channel/UCSEEKiRiU8hij9ErKugWzLg">                <svg version="1.1" id="icon-youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="2rem" height="2rem" class="ml-3">
+                <a href="https://www.youtube.com/channel/UCSEEKiRiU8hij9ErKugWzLg" class="SectionContact__rrss-icon"><svg version="1.1" id="icon-youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="2rem" height="2rem" class="ml-3">
                 <style type="text/css">
                   .st0{fill:#3366CC;}
                 </style>
@@ -377,7 +375,7 @@
                 </svg></a>
 
               <!-- icono linkedin -->
-                <a href="https://www.linkedin.com/company/develaccion/"><svg version="1.1" id="icon-linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve" width="1.5rem" height="1.5rem" class="ml-4">
+                <a href="https://www.linkedin.com/company/develaccion/" class="SectionContact__rrss-icon"><svg version="1.1" id="icon-linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve" width="1.5rem" height="1.5rem" class="ml-4">
                 <style type="text/css">
                 	.st0{fill:#3366CC;}
                 </style>
@@ -393,7 +391,7 @@
                 </svg></a>
 
               <!-- icono instagram   -->
-                <a href="https://www.instagram.com/develaccion/"><svg version="1.1" id="icon-instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 169.1 169.1" style="enable-background:new 0 0 169.1 169.1;" xml:space="preserve" width="1.8rem" height="1.8rem" class="ml-4">
+                <a href="https://www.instagram.com/develaccion/" class="SectionContact__rrss-icon"><svg version="1.1" id="icon-instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 169.1 169.1" style="enable-background:new 0 0 169.1 169.1;" xml:space="preserve" width="1.8rem" height="1.8rem" class="ml-4">
                 <style type="text/css">
                 	.st0{fill:#3366CC;}
                 </style>
@@ -417,38 +415,37 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container">
+    <footer class="SectionFooter">
+      <div class="SectionFooter__container">
         <div class="row m-4">
 
-          <div class="col-sm-7 nobull">
-            <ul class="nobull">
-              <li>DevelAccion® Consultora SpA</li>
-              <li>contacto@develaccion.com</li>
-              <li>Av. Holanda 099 of. 1101, Providencia</li>
-              <li>Celerino Pereira 1456, Ñuñoa</li>
-              <li>Programa Desarrollo Organizacional Sistémico</li>
-              <li>Celerino Pereira 1456, Ñuñoa</li>
-              <li>Santiago, Chile</li>
+          <div class="SectionFooter__listContainer col-sm-7">
+            <ul class="SectionFooter__list nobull">
+              <li class="SectionFooter__item">DevelAccion® Consultora SpA</li>
+              <li class="SectionFooter__item">contacto@develaccion.com</li>
+              <li class="SectionFooter__item">Av. Holanda 099 of. 1101, Providencia</li>
+              <li class="SectionFooter__item">Celerino Pereira 1456, Ñuñoa</li>
+              <li class="SectionFooter__item">Programa Desarrollo Organizacional Sistémico</li>
+              <li class="SectionFooter__item">Celerino Pereira 1456, Ñuñoa</li>
+              <li class="SectionFooter__item">Santiago, Chile</li>
             </ul>
           </div>
 
-          <div class="col-sm-5">
-            <ul class="nobull">
-              <li>Inicio</li>
-              <li>Programa de Transformación Organizacional</li>
-              <li>Programa Educación Cívica como RSE</li>
-              <li>Programa Emprender, el camino del(a) Guerrer@</li>
-              <li>Programa Desarrollo Organizacional Sistémico</li>
-              <li>Talleres</li>
-              <li>Testimonios</li>
-              <li>Contacto</li>
-              <li>Blog</li>
+          <div class="SectionFooter__listContainer col-sm-5">
+            <ul class="SectionFooter__list--sitemap nobull">
+              <li class="SectionFooter__item">Inicio</li>
+              <li class="SectionFooter__item">Programa de Transformación Organizacional</li>
+              <li class="SectionFooter__item">Programa Educación Cívica como RSE</li>
+              <li class="SectionFooter__item">Programa Emprender, el camino del(a) Guerrer@</li>
+              <li class="SectionFooter__item">Programa Desarrollo Organizacional Sistémico</li>
+              <li class="SectionFooter__item">Talleres</li>
+              <li class="SectionFooter__item">Testimonios</li>
+              <li class="SectionFooter__item">Contacto</li>
+              <li class="SectionFooter__item">Blog</li>
             </ul>
           </div>
-
+          <p class="SectionForm__copyright m-3"><small>Copyright © 2019 DevelAccion® | Todos los derechos reservados.</small></p>
         </div>
-        <p><small>Copyright © 2019 DevelAccion® | Todos los derechos reservados.</small></p>
       </div>
     </footer>
 
