@@ -232,4 +232,24 @@ p {
   margin-left: 1rem;
 }
 
+.separador-img {
+  background-image: url("../img/barquito-rojo-lg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 147px;
+}
+
+.Section-GotoBlog {
+  color: #666666;
+}
+
+.Section-Blog__title {
+  padding-top: 10rem;
+}
+
+.sectionCustomers__title-xxxl {
+  padding-top: 10rem;
+}
+
 /*# sourceMappingURL=main.css.map */

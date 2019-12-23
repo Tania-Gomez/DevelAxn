@@ -1,3 +1,13 @@
 .SectionPrograma__item {
   margin-left: 1rem;
 }
+.separador-img {
+  background-image: url('../img/barquito-rojo-lg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 147px;
+}
+.Section-GotoBlog {
+  color: $dark-gray;
+}
