@@ -1,5 +1,4 @@
-// Estilos de Header
-
+// Estilos de Header en página de inicio
 .jumbotron {
   background-image: url('../img/foto-header.jpg');
   background-repeat: no-repeat;
@@ -8,10 +7,22 @@
   margin-top: 5rem;
   height: 600px;
 }
-
 .SectionHeader__slogan {
   color: $dark-gray;
   width: 70%;
+}
+// Estilos de Header en página Programas
+.HeaderPrograma {
+  background-image: url('../img/program-camino-guerrero-xl2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-top: 5rem;
+  height: 650px;
+}
+.SectionPrograma__epigraph{
+  font-style: italic;
+  line-height: 1.7;
 }
 
 @media (max-width: 576px) {

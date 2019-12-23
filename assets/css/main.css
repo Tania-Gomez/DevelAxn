@@ -67,6 +67,20 @@ p {
   width: 70%;
 }
 
+.HeaderPrograma {
+  background-image: url("../img/program-camino-guerrero-xl2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin-top: 5rem;
+  height: 650px;
+}
+
+.SectionPrograma__epigraph {
+  font-style: italic;
+  line-height: 1.7;
+}
+
 @media (max-width: 576px) {
   .SectionHeader__logo {
     width: 74%;
@@ -212,6 +226,10 @@ p {
 
 .sectionProgramas {
   background-color: #f6f6f6;
+}
+
+.SectionPrograma__item {
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
