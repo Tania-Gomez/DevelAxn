@@ -1,18 +1,21 @@
-// Estilos de Header en página de inicio
-.jumbotron {
-  background-image: url('../img/foto-header.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: 5rem;
-  height: 600px;
+// Estilos de Header en página Inicio
+.headerInicio {
+  &____slogan {
+    color: $dark-gray;
+    width: 70%;
+  }
+  &__jumbotron {
+    background-image: url('../img/foto-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+    height: 600px;
+  }
 }
-.SectionHeader__slogan {
-  color: $dark-gray;
-  width: 70%;
-}
+
 // Estilos de Header en página Programas
-.HeaderPrograma {
+.headerProgramas {
   background-image: url('../img/program-camino-guerrero-xl2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,10 +23,7 @@
   margin-top: 5rem;
   height: 650px;
 }
-.SectionPrograma__epigraph{
-  font-style: italic;
-  line-height: 1.7;
-}
+
 
 @media (max-width: 576px) {
   .SectionHeader__logo {
