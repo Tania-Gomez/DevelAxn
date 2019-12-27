@@ -79,7 +79,7 @@ Vista Mobil
 ![Vista página testimonios](hhttps://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Testimonios.jpg)
 
 ### Blog
-![Vista página Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/blog.jpg)
+![Vista página Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Blog.jpg)
 
 ### Plantilla para entrada de blog
 ![Vista plantilla Entrada de Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Blog-detalle.jpg)
