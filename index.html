@@ -9,6 +9,8 @@
     <title>DevelAxn</title>
     <!-- CSS de Bootstrap 4.4.1 -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- CSS de AOS 2.3.1 -->
+    <link href="assets/css/aos.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Mi hoja de estilos -->
@@ -140,7 +142,7 @@
               <a class="nav-link" href="plantilla-item-servicios.html">Programas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#programas">Talleres</a>
+              <a class="nav-link" href="plantilla-item-servicios.html">Talleres</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="clientes.html">Testimonios</a>
@@ -178,7 +180,7 @@
           <div class="row">
 
             <div class="SectionAboutUs__container-img col-md-4">
-              <img class="SectionAboutUs__img w-100 h-auto m-2 fade-in-top" src="assets/img/paola-meli.jpg" alt="Paola Meli fundadora de DevelAxn">
+              <img class="SectionAboutUs__img w-100 h-auto m-2" src="assets/img/paola-meli.jpg" alt="Paola Meli fundadora de DevelAxn" data-aos="zoom-in-down">
             </div>
 
             <div class="SectionAboutUs__container-paragraph col-md-8">
@@ -199,7 +201,7 @@
         </div>
       </section>
 
-      <!-- Seccion Servicios-->
+      <!-- Seccion Programas-->
       <section class="sectionProgramas py-3" id="programas">
         <div class="sectionProgramas__container container">
           <h2 class="sectionProgramas__title-xxxl text-center my-5">Programas</h2>
@@ -275,7 +277,7 @@
 
             <!-- customer 1 -->
             <div class="col-sm p-3">
-              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-caterina-verdi.png" alt="Cliente DevelAxn">
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-caterina-verdi.png" alt="Cliente DevelAxn"  data-aos="flip-left">
               <h3 class="sectionCustomers__title-xl text-secondary">Caterina Verdi</h3>
               <h5 class="sectionCustomers__subtitle">Publicista, Empresaria|Grupo Sigma</h5>
               <p class="sectionCustomers__paragraph font-italic pt-3">“Por mi experiencia anterior con metodologías como ésta, sabía que sería potente aplicarlas al funcionamiento de una empresa.”</p>
@@ -283,7 +285,7 @@
 
             <!-- customer 2 -->
             <div class="col-sm p-3">
-              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-german-pizarro.png" alt="Cliente DevelAxn">
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-german-pizarro.png" alt="Cliente DevelAxn" data-aos="flip-left">
               <h3 class="sectionCustomers__title-xl text-secondary">Germán Pizarro</h3>
               <h5 class="sectionCustomers__subtitle">Empresario|IHC Consulting</h5>
               <p class="sectionCustomers__paragraph font-italic pt-3">“Fue un trabajo semanal, muy interesante y enriquecedor en el sentido de ir descubriendo a través de ejercicios prácticos, como algunos componentes de la empresa no estaban realmente alineados.”</p>
@@ -291,7 +293,7 @@
 
             <!-- customer 3 -->
             <div class="col-sm p-3">
-              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block fade-in-top" src="assets/img/cliente-alfonso-contreras.png" alt="Cliente DevelAxn">
+              <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="assets/img/cliente-alfonso-contreras.png" alt="Cliente DevelAxn" data-aos="flip-left">
               <h3 class="sectionCustomers__title-xl text-secondary">Alfonso Contreras</h3>
               <h5 class="sectionCustomers__subtitle">Empresario | SmartGoals, NEP</h5>
               <p class="sectionCustomers__paragraph font-italic pt-3">“Mi expectativa era enfocarme y poner a mi favor aspectos que uno sabe que están ahí, pero que normalmente no están en el radar de las empresas y ni de los empresarios.”</p>
@@ -457,6 +459,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!-- bootstrap JS 4.3.1 -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- AOS JS 2.3.1/ -->
+    <script src="assets/js/aos.js"></script>
+    <script type="text/javascript">
+    AOS.init({
+       easing: 'ease-out-cubic',
+       duration: 1500,
+       delay: 100,
+       once: true,
+       disable: 'mobile'
+    });
+    </script>
     <!-- Mi script -->
     <script src="assets/js/my_script.js"></script>
 
