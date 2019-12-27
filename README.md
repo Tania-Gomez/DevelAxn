@@ -76,7 +76,7 @@ Vista Mobil
 ![Vista página individual programas/talleres](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Programas.jpg)
 
 ### Testimonios (con toggler)
-![Vista página testimonios](hhttps://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Testimonios.jpg)
+![Vista página testimonios](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Testimonios.jpg)
 
 ### Blog
 ![Vista página Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Blog.jpg)
