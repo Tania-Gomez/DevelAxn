@@ -3,7 +3,7 @@
 ## ANTECEDENTES
 
 ## Definición del Proyecto
-Develaccion es una consultora que inetgra ingeniería, coaching y técnicas terapéuticas en sus Programas de Transformación y Adaptación. La finalidad de estos programas es identificar aquellos factores personales u organizacionales que frenan el desarrollo de un proyecto o negocio, superar estos factores, planificar acciones de cambio y finalmente ejecutar estas acciones.
+Develaccion es una consultora que integra ingeniería, coaching y técnicas terapéuticas en sus Programas de Transformación y Adaptación. La finalidad de estos programas es identificar aquellos factores personales u organizacionales que frenan el desarrollo de un proyecto o negocio, superar estos factores, planificar acciones de cambio y finalmente ejecutar estas acciones.
 
 El proyecto consiste en renovar su sitio web otorgando una cualidad gráfica más limpia, de manera que refleje su nueva visión de servicios y lleve a los usuarios a contactarlos para conocer sus programas e idealmente concretar un presupuesto.
 El proyecto incluye, además, la búsqueda de imágenes en banco de fotos y edición de los textos enviados por el cliente, los cuales no estaban del todo sistematizados.
