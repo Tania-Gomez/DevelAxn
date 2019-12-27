@@ -4,13 +4,16 @@
 
 ## Definición del Proyecto
 Develaccion es una consultora que inetgra ingeniería, coaching y técnicas terapéuticas en sus Programas de Transformación y Adaptación. La finalidad de estos programas es identificar aquellos factores personales u organizacionales que frenan el desarrollo de un proyecto o negocio, superar estos factores, planificar acciones de cambio y finalmente ejecutar estas acciones.
+
 El proyecto consiste en renovar su sitio web otorgando una cualidad gráfica más limpia, de manera que refleje su nueva visión de servicios y lleve a los usuarios a contactarlos para conocer sus programas e idealmente concretar un presupuesto.
 El proyecto incluye, además, la búsqueda de imágenes en banco de fotos y edición de los textos enviados por el cliente, los cuales no estaban del todo sistematizados.
 
 
 ## Marca
-![](img-maqueta/logo temporal.jpg)
+![Logo DevelAxn](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Logo%20temporal.jpg)
+
 Palabra “develar” = mostrar: puerta que se abre dejando ver la A de “acción”.
+
 Después de dos años en el mercado, ya se han identificado aquellas temáticas que captan mayor interés por parte de los usuarios, y se ha definido una nueva visión de servicios que ha generado el desarrollo de nuevos productos (Programas).
 Este cambio tiene su correspondencia a nivel gráfico en la implementación de nueva imagen corporativa, la cual se encuentra en desarrollo, pero mantiene la tipografía corporativa Open Sans y una paleta acotada de colores en gris y azul/cyan.
 
@@ -19,9 +22,9 @@ Movimientos que transforman
 
 ## Usuarios
 El encargado de marketing reporta como perfil de cliente:
-  Empresarios, emprendedores, gerentes.
-  Entre 30 y 60 años.
-  65% hombres – 35% mujeres
+  - Empresarios, emprendedores, gerentes.
+  - Entre 30 y 60 años.
+  - 65% hombres – 35% mujeres
 
 ## Conversión
 Se espera un aumento en la cantidad de visitas al sitio y un incremento en el número de contactos.
@@ -57,21 +60,26 @@ Se espera un aumento en la cantidad de visitas al sitio y un incremento en el n�
 
 ## PROPUESTA DE DISEÑO
 Se genera Stylesheet como sigue:
-(img)
+
+![Guía de EStilos](https://github.com/Tania-Gomez/DevelAxn/blob/master/Styleguide_Develaccion.jpg)
 
 ### Propongo reducir y simplificar la página de inicio con la siguiente propuesta:
-(img escritorio / img mobil)
+Vista Escritorio
+
+![Vista escritorio página de inicio](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/inicio.jpg)
+
+Vista Mobil
+
+![Vista mobil página de inicio](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/phone-size.jpg)
 
 ### Plantilla para página individual para programas/talleres
-(img)
+![Vista página individual programas/talleres](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Programas.jpg)
 
 ### Testimonios (con toggler)
-(img)
+![Vista página testimonios](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/clientes.jpg)
 
-### Blog todos
+### Blog
+![Vista página Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/blog.jpg)
 
 ### Plantilla para entrada de blog
-(img)
-
-### Contacto
-(img)
+![Vista plantilla Entrada de Blog](https://github.com/Tania-Gomez/DevelAxn/blob/master/img-maqueta/Blog-detalle.jpg)
